@@ -127,9 +127,7 @@ The largest drop-off occurs between **Signup Started** and **Details Filled**, w
 ```text
 Funnel-Analysis/
 │
-├── funnel_events.csv
-│   
-│── funnel_event_samples.csv
+├── funnel_event_sample.csv
 ├
 │── funnel_summary.csv 
 │   
