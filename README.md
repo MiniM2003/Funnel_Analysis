@@ -1,6 +1,6 @@
-# 📊 Funnel Analysis – Product Conversion Funnel
+## 📊 Funnel Analysis – Product Conversion Funnel
 
-## 📌 Project Overview
+### 📌 Project Overview
 
 This project analyzes a user conversion funnel for a signup and checkout process. The objective is to understand how users progress through each stage of the funnel, calculate stage-to-stage conversion rates, identify where the largest user drop-off occurs, and provide actionable business recommendations.
 
@@ -8,7 +8,7 @@ This type of analysis is commonly performed by Product, Growth, and Data Analyti
 
 ---
 
-## 🎯 Business Problem
+### 🎯 Business Problem
 
 Users follow a fixed sequence of events:
 
@@ -23,7 +23,7 @@ Not every user completes the entire journey. The goal is to determine:
 
 ---
 
-## 📂 Dataset
+### 📂 Dataset
 
 The dataset contains event-level records with the following columns:
 
@@ -43,7 +43,7 @@ The dataset contains event-level records with the following columns:
 
 ---
 
-## 🛠️ Tools & Libraries
+### 🛠️ Tools & Libraries
 
 * Python
 * Pandas
@@ -52,7 +52,7 @@ The dataset contains event-level records with the following columns:
 
 ---
 
-## 📋 Project Workflow
+### 📋 Project Workflow
 
 ### 1. Data Loading
 
@@ -81,7 +81,7 @@ The dataset contains event-level records with the following columns:
 
 ---
 
-## 📈 Analysis Results
+### 📈 Analysis Results
 
 ### Unique Users by Stage
 
@@ -116,13 +116,13 @@ The dataset contains event-level records with the following columns:
 
 ---
 
-## 💡 Business Recommendation
+### 💡 Business Recommendation
 
 The largest drop-off occurs between **Signup Started** and **Details Filled**, where 54 users abandon the process. This indicates that the registration form may be too lengthy, confusing, or require unnecessary information. Simplifying the signup form by reducing mandatory fields or enabling social sign-in (such as Google or Apple login) could improve the completion rate. Running an A/B test would help validate whether these changes increase user conversions.
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 ```text
 Funnel-Analysis/
@@ -140,7 +140,7 @@ Funnel-Analysis/
 
 ---
 
-## 🚀 How to Run
+### 🚀 How to Run
 
 1. Clone the repository.
 
@@ -158,7 +158,7 @@ pip install pandas matplotlib
 
 ---
 
-## 📌 Key Skills Demonstrated
+### 📌 Key Skills Demonstrated
 
 * Data Cleaning
 * Exploratory Data Analysis (EDA)
